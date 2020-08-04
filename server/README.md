@@ -7,4 +7,5 @@ CommonJS modules - using require. Typically used on backend.
 ES2016 modules - using import. Typically, much more easily, used on frontend.
 
 ### Google OAuth
+Passport strategy for Google OAuth: http://www.passportjs.org/packages/passport-google-oauth20/
 

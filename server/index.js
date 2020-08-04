@@ -5,7 +5,8 @@ app.get('/', (req, res) => {
     res.send({ hi: 'there' });
 });
 
-app.listen(5000, () => {
-    'App is listening'
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    `app listening on ${PORT}`
 });
 
